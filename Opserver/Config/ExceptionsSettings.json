@@ -1,0 +1,98 @@
+{
+  "warningRecentCount": "10",
+  "criticalRecentCount": "200",
+  "viewGroups": "StatusExceptionsRO",
+  "applications": [
+    "External API project",
+    "Worker"
+  ],
+  "groups": [
+    {
+      "name": "Local",
+      "applications": [
+        "Admin Local",
+        "Admin.Web",
+        "Admin Dev",
+        "BatchWorker Local",
+        "EventWorker Local",
+        "TransactionWorker Local",
+        "Web",
+        "MadisonAdmin Local",
+        "Maestro.WebApi"
+      ]
+    },
+    {
+      "name": "Dev",
+      "applications": [
+        "Web Dev",
+        "MadisonAdmin Dev",
+        "Admin Dev",
+        "BatchWorker Dev",
+        "EventWorker Dev",
+        "TransactionWorker Dev"
+      ]
+    },
+    {
+      "name": "QA",
+      "applications": [
+        "Web QA",
+        "MadisonAdmin QA",
+        "Admin QA",
+        "BatchWorker QA",
+        "EventWorker QA",
+        "TransactionWorker QA",
+        "Maestro.WebApi QA"
+      ]
+    },
+    {
+      "name": "Stg",
+      "applications": [
+        "Web Stg",
+        "MadisonAdmin Stg",
+        "Admin Stg",
+        "BatchWorker Stg",
+        "EventWorker Stg",
+        "TransactionWorker Stg",
+        "Maestro.WebApi Stg"
+      ]
+    },
+    {
+      "name": "Prod",
+      "applications": [
+        "Web Prod",
+        "MadisonAdmin Prod",
+        "Admin Prod",
+        "BatchWorker Prod",
+        "EventWorker Prod",
+        "TransactionWorker Prod",
+        "Maestro.WebApi Prod"
+      ]
+    }
+  ],
+  "stores": [
+    {
+      "name": "Dev Server",
+      "queryTimeoutMs": 2000,
+      "pollIntervalSeconds": 120,
+      "connectionString": "Server=tcp:dmaeeusazusql1.database.windows.net;Database=MaestroLoggingDev;User ID=BravoAdmin@dmaeeusazusql1;Password=Pass@word1;Trusted_Connection=False;Encrypt=True;Connection Timeout=30;"
+    },
+    {
+      "name": "QA Server",
+      "queryTimeoutMs": 2000,
+      "pollIntervalSeconds": 120,
+      "connectionString": "Server=tcp:xis840du5s.database.windows.net,1433;Database=MaestroLoggingQA;User ID=BravoAdmin@xis840du5s;Password=Pass@word1;Trusted_Connection=False;Encrypt=True;Connection Timeout=30;"
+    },
+    {
+      "name": "Stg Server",
+      "queryTimeoutMs": 2000,
+      "pollIntervalSeconds": 120,
+      "connectionString": "Server=tcp:mqqvkgx6bq.database.windows.net;Database=MaestroLoggingStg;User ID=BravoAdmin@mqqvkgx6bq;Password=Pass@word1;Trusted_Connection=False;Encrypt=True;"
+    },
+    {
+      "name": "Prod Server",
+      "queryTimeoutMs": 2000,
+      "pollIntervalSeconds": 120,
+      "connectionString": "Server=tcp:gbh46orvpb.database.windows.net,1433;Database=MaestroLoggingProd;User ID=Langate;Password=L@ngateL0gg!ng;Trusted_Connection=False;Encrypt=True;Connection Timeout=30;"
+    }
+  ]
+}

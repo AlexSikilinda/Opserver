@@ -1,0 +1,9 @@
+﻿{
+    "defaultConnectionString": "Data Source=localhost;Initial Catalog=Root;Integrated Security=True;MultipleActiveResultSets=True",
+    "instances": [
+        {
+            "name": "QA Database",
+            "connectionString": "Data Source=qabravosqlsvc.cloudapp.net,51433;TrustServerCertificate=True;Database=Root;Persist Security Info=True;User ID=BravoAdmin;Password=Pass@word1;Pooling=False;MultipleActiveResultSets=True"
+        }
+    ]
+}
