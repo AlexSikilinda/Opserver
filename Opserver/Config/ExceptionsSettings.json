@@ -73,13 +73,13 @@
     {
       "name": "Dev Server",
       "queryTimeoutMs": 2000,
-      "pollIntervalSeconds": 120,
+      "pollIntervalSeconds": 300,
       "connectionString": "Server=tcp:dmaeeusazusql1.database.windows.net;Database=MaestroLoggingDev;User ID=BravoAdmin@dmaeeusazusql1;Password=Pass@word1;Trusted_Connection=False;Encrypt=True;Connection Timeout=30;"
     },
     {
       "name": "QA Server",
       "queryTimeoutMs": 2000,
-      "pollIntervalSeconds": 120,
+      "pollIntervalSeconds": 180,
       "connectionString": "Server=tcp:xis840du5s.database.windows.net,1433;Database=MaestroLoggingQA;User ID=BravoAdmin@xis840du5s;Password=Pass@word1;Trusted_Connection=False;Encrypt=True;Connection Timeout=30;"
     },
     {

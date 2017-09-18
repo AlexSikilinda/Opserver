@@ -124,9 +124,12 @@
     <None Include="Config\DashboardSettings.example.json" />
     <None Include="Config\ElasticSettings.example.json" />
     <None Include="Config\ExceptionsSettings.example.json" />
+    <Content Include="Config\ExceptionsSettings.json" />
     <None Include="Config\HAProxySettings.example.json" />
     <None Include="Config\RedisSettings.example.json" />
     <Content Include="Config\SecuritySettings.config.example" />
+    <Content Include="Config\SecuritySettings.config" />
+    <Content Include="Config\RedisSettings.json" />
     <None Include="Config\SQLSettings.example.json" />
     <Content Include="Content\img\logo\logo.eps" />
     <None Include="Config\JiraSettings.example.json" />
@@ -302,6 +305,7 @@
     <Content Include="Content\font-awesome\less\screen-reader.less" />
     <Content Include="Content\font-awesome\less\stacked.less" />
     <Content Include="Content\font-awesome\less\variables.less" />
+    <Content Include="Config\SQLSettings.json" />
     <None Include="Help\SQL\WaitStats.md" />
     <Content Include="Views\CloudFlare\Dashboard.cshtml" />
     <Content Include="Views\Dashboard\Node.Graph.cshtml">
@@ -635,6 +639,8 @@
     <Content Include="Views\SQL\Databases.Modal.Partitions.cshtml">
       <DependentUpon>Databases.Modal.cshtml</DependentUpon>
     </Content>
+    <None Include="Properties\PublishProfiles\MaestroOpserver - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\MaestroOpserver - Web Deploy.pubxml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\js\Scripts.js" />
