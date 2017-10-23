@@ -1,0 +1,323 @@
+﻿{
+    "Servers": [
+        {
+            "name": "qa-maestro-rc.redis.cache.windows.net",
+            "instances": [
+                {
+                    "name": "QA ROOT REDIS",
+                    "port": "6380",
+                    "password": "CkZ2IgTIg1nouGtPVn4l6YwS85V1PiXFCt38qgTa6Ls=",
+                    "UseSSL": true
+                }
+            ]
+        },
+        {
+            "name": "dev-maestro-rc.redis.cache.windows.net",
+            "instances": [
+                {
+                    "name": "DEV ROOT REDIS",
+                    "port": "6380",
+                    "password": "IAa4yZsBYMHaLN7lntXP3jNpd1WBlWP4OjGcKn3nRWY=",
+                    "UseSSL": true
+                }
+            ]
+        },
+        {
+            "name": "qa-maestro-rc-madisonryp.redis.cache.windows.net",
+            "instances": [
+                {
+                    "name": "QA MADISON PERFORMANCE GROUP RYP",
+                    "port": "6380",
+                    "password": "qDgqZki/3FfTV+I8ob+fJWodSk1UtvFn+P93km16uoQ=",
+                    "UseSSL": true
+                }
+            ]
+        },
+        {
+            "name": "qa-maestro-rc-madisondemo.redis.cache.windows.net",
+            "instances": [
+                {
+                    "name": "QA MADISON DEMO",
+                    "port": "6380",
+                    "password": "A6Ik6mKVUUgHLfmVv127dNR1OSk8qA7O5iHkl7XVGho=",
+                    "UseSSL": true
+                }
+            ]
+        },
+        {
+            "name": "qa-maestro-rc-sandn.redis.cache.windows.net",
+            "instances": [
+                {
+                    "name": "QA SMITH AND NEPHEW",
+                    "port": "6380",
+                    "password": "hvJlR2BhClqEvlHla+WxUd2FEWqPVky66tDx81hv0ow=",
+                    "UseSSL": true
+                }
+            ]
+        },
+        {
+            "name": "qa-maestro-rc-juniper.redis.cache.windows.net",
+            "instances": [
+                {
+                    "name": "QA JUNIPER",
+                    "port": "6380",
+                    "password": "UbZkgQgLitHtnDA5KOFcjTGBX0+eZnsco3Xhj883OV4=",
+                    "UseSSL": true
+                }
+            ]
+        },
+        {
+            "name": "qa-maestro-rc-takedarecognition.redis.cache.windows.net",
+            "instances": [
+                {
+                    "name": "QA TAKEDA",
+                    "port": "6380",
+                    "password": "T3PqFM//rKRtJx86yoTFQd2aJaChGJClXIvt3IAU/5A=",
+                    "UseSSL": true
+                }
+            ]
+        },
+        {
+            "name": "qa-maestro-rc-mtm.redis.cache.windows.net",
+            "instances": [
+                {
+                    "name": "QA MTM",
+                    "port": "6380",
+                    "password": "b8bJIxe38SVIijD2IfBOVTDPjPbiCutcvdMhj/8vCfQ=",
+                    "UseSSL": true
+                }
+            ]
+        },
+        {
+            "name": "qa-maestro-rc-ti.redis.cache.windows.net",
+            "instances": [
+                {
+                    "name": "QA TI",
+                    "port": "6380",
+                    "password": "rTGVeKLz3gCEmDUY3ziinEVI1+uKhQW1kB8I99ZFpiE=",
+                    "UseSSL": true
+                }
+            ]
+        },
+        {
+            "name": "qa-maestro-rc-accentureots.redis.cache.windows.net",
+            "instances": [
+                {
+                    "name": "QA Accenture OTS",
+                    "port": "6380",
+                    "password": "CHwlOGGPtPXN6j6M4s3oEZK8TD5ZEUlIhfxYjxeyRbM=",
+                    "UseSSL": true
+                }
+            ]
+        },
+        {
+            "name": "qa-maestro-rc-synopsys.redis.cache.windows.net",
+            "instances": [
+                {
+                    "name": "QA Synopsys",
+                    "port": "6380",
+                    "password": "LpzHND1Dh9H+jt+37/neUQfsdXY3fNp3MVnkKmCtB8g=",
+                    "UseSSL": true
+                }
+            ]
+        },
+        {
+            "name": "qatenant-maestro-rc-trueblue.redis.cache.windows.net",
+            "instances": [
+                {
+                    "name": "QA TrueBlue",
+                    "port": "6380",
+                    "password": "Ems08l1eU7O/u5ythTliMfWQP+MsQHNeKwD20JpGlzI=",
+                    "UseSSL": true
+                }
+            ]
+        },
+        {
+            "name": "qatenant-maestro-rc-acnra.redis.cache.windows.net",
+            "instances": [
+                {
+                    "name": "QA ACNRA",
+                    "port": "6380",
+                    "password": "RNwOoywZM/e+ge+YTwpi7V0SAcQN4YTjkubQ6rxcBd0=",
+                    "UseSSL": true
+                }
+            ]
+        },
+        {
+            "name": "qa-maestro-rc-sfdemo01.redis.cache.windows.net",
+            "instances": [
+                {
+                    "name": "QA SF DEMO 01",
+                    "port": "6380",
+                    "password": "Q7L3toidVwVm9AdUo2md2U5/azAWd0Ku5MpAO7jTBpQ=",
+                    "UseSSL": true
+                }
+            ]
+        },
+        {
+            "name": "qa-maestro-rc-sfdemo02.redis.cache.windows.net",
+            "instances": [
+                {
+                    "name": "QA SF DEMO 02",
+                    "port": "6380",
+                    "password": "R/9bE7Ctceh0hDSGvH7qRtWuCMla741uhNbWZZ6/i40=",
+                    "UseSSL": true
+                }
+            ]
+        },
+        {
+            "name": "qa-maestro-rc-sfdemo03.redis.cache.windows.net",
+            "instances": [
+                {
+                    "name": "QA SF DEMO 03",
+                    "port": "6380",
+                    "password": "03oKh23uYyPHqw3OKeMI0HRCJdnb3JSFShts8vgnpFU=",
+                    "UseSSL": true
+                }
+            ]
+        },
+        {
+            "name": "stg-maestro-rc.redis.cache.windows.net",
+            "instances": [
+                {
+                    "name": "STG ROOT",
+                    "port": "6380",
+                    "password": "5HRhT0e0cmikLwQYi02fPrDFhXD7KME7dF0+U+3ChZw=",
+                    "UseSSL": true
+                }
+            ]
+        },
+        {
+            "name": "prod-maestro-rc.redis.cache.windows.net",
+            "instances": [
+                {
+                    "name": "PROD ROOT",
+                    "port": "6380",
+                    "password": "V0tEG7ZteK9zCWzgSVa06JLtVUZeTeFHNRPH6AGuZQU=",
+                    "UseSSL": true
+                }
+            ]
+        },
+        {
+            "name": "prod-maestro-rc.redis.cache.windows.net",
+            "instances": [
+                {
+                    "name": "PROD ROOT",
+                    "port": "6380",
+                    "password": "V0tEG7ZteK9zCWzgSVa06JLtVUZeTeFHNRPH6AGuZQU=",
+                    "UseSSL": true
+                }
+            ]
+        },
+        {
+            "name": "prod-maestro-rc-madisonryp.redis.cache.windows.net",
+            "instances": [
+                {
+                    "name": "PROD MadisonRYP",
+                    "port": "6380",
+                    "password": "4kdKgPHmKL36ls4CAE/j+zTLTpJ7FhfdZQzEUB3dwtM=",
+                    "UseSSL": true
+                }
+            ]
+        },
+        {
+            "name": "prod-maestro-rc-madisondemo.redis.cache.windows.net",
+            "instances": [
+                {
+                    "name": "PROD Madison Demo USA",
+                    "port": "6380",
+                    "password": "z0A9zc06DTxZT6nkCavCIxtFvnv/QY/BxV+hUJ7JoBo=",
+                    "UseSSL": true
+                }
+            ]
+        },
+        {
+            "name": "prod-maestro-rc-sandn.redis.cache.windows.net",
+            "instances": [
+                {
+                    "name": "PROD Smith and Nephew",
+                    "port": "6380",
+                    "password": "0IMF1IIY6WVw4kKgWUkTHlG/wCtXx5MlM3F7xB17JAQ=",
+                    "UseSSL": true
+                }
+            ]
+        },
+        {
+            "name": "prod-maestro-rc-juniper.redis.cache.windows.net",
+            "instances": [
+                {
+                    "name": "PROD Juniper Recognition Connect",
+                    "port": "6380",
+                    "password": "OSzA4oeYLVwPwRAZbDcKSnbLjcyoOp3za2TIviScaI4=",
+                    "UseSSL": true
+                }
+            ]
+        },
+        {
+            "name": "prod-maestro-rc-takedarecognition.redis.cache.windows.net",
+            "instances": [
+                {
+                    "name": "PROD Takeda Recognition",
+                    "port": "6380",
+                    "password": "Ruo6xdA7m98jkUKy/JqEi9Y1PBWKGHQH/HvQQJgcuzc=",
+                    "UseSSL": true
+                }
+            ]
+        },
+        {
+            "name": "prod-maestro-rc-mtm.redis.cache.windows.net",
+            "instances": [
+                {
+                    "name": "PROD MTM DRIVE REWARDS",
+                    "port": "6380",
+                    "password": "J84Vpsc3tRH28ZKgjs1CQyA0Fhce9H05ndyIKsJOHsI=",
+                    "UseSSL": true
+                }
+            ]
+        },
+        {
+            "name": "prod-maestro-rc-ti.redis.cache.windows.net",
+            "instances": [
+                {
+                    "name": "PROD TI Global Recognition",
+                    "port": "6380",
+                    "password": "Hiy8rcbLjQbDwVn5h/5EVWFCOwXZK1OUoor+QCOkI2s=",
+                    "UseSSL": true
+                }
+            ]
+        },
+        {
+            "name": "prod-maestro-rc-accentureots.redis.cache.windows.net",
+            "instances": [
+                {
+                    "name": "PROD Accenture Appreciation Gift Cards",
+                    "port": "6380",
+                    "password": "U14xgdHQXSzr/0GXyheGiC738gTBqGmGMEOyPZ6K7rI=",
+                    "UseSSL": true
+                }
+            ]
+        },
+        {
+            "name": "prod-maestro-rc-synopsys.redis.cache.windows.net",
+            "instances": [
+                {
+                    "name": "PROD Synopsys Celebrating Service",
+                    "port": "6380",
+                    "password": "zMAt7D0QnT0fMAu7oicNPgxr3cD2c2hCyhmUPZVYswY=",
+                    "UseSSL": true
+                }
+            ]
+        },
+        {
+            "name": "prod-maestro-rc-trueblue.redis.cache.windows.net",
+            "instances": [
+                {
+                    "name": "PROD TrueBlue Gratitude",
+                    "port": "6380",
+                    "password": "Lqqn4lQOBrcd/w2wAIQFltJfzFPomX4x4+y3WPk/aac=",
+                    "UseSSL": true
+                }
+            ]
+        }
+    ]
+}
